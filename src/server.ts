@@ -3,7 +3,7 @@ import * as express from 'express'
 import * as bodyParser from "body-parser";
 import logging from "./config/logging";
 import config from "./config/config";
-import * as sampleRoutes from './routes/sample'
+import * as sampleRoutes from './routes/book'
 
 const NAMESPACE = 'Server'
 const router = express()
